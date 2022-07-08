@@ -65,6 +65,17 @@
   }
 }
 
+% FIXME: make resumeSubheading more general so don't need this
+\newcommand{\resumeSubheadingMultiple}[8]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+      \textit{\small#7} & \textit{\small #8} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -118,22 +129,21 @@
 
 \section{Experience}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Role 1}{November 2021 – Present}
-      {Company 1}{Melbourne, VIC}
+    \resumeSubheadingMultiple
+      {Guru Technologies Inc.}{Remote/Philadelphia, PA}
+      {Senior Machine Learning Engineer}{February 2022-Present}
+      {Data Scientist III}{November 2020-January 2022}
+      {Data Scientist II}{September 2019-October 2020}
       \resumeItemListStart
-        \resumeItem{Job description/Award/Achievement 1}
-        \resumeItem{Job description/Award/Achievement 2}
-        \resumeItem{Job description/Award/Achievement 3}
+        \resumeItem{TODO}
+        \resumeItem{TODO}
       \resumeItemListEnd
       
     \resumeSubheading
       {Role 2}{November 2021 – Present}
       {Company 2}{Melbourne, VIC}
       \resumeItemListStart
-        \resumeItem{Job description/Award/Achievement 1}
-        \resumeItem{Job description/Award/Achievement 2}
-        \resumeItem{Job description/Award/Achievement 3}
+        \resumeItem{TODO}
       \resumeItemListEnd
     \resumeSubHeadingListEnd
 
