@@ -6,19 +6,16 @@
 
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
-
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -30,7 +27,6 @@
 % serif
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -66,13 +62,22 @@
 }
 
 % FIXME: make resumeSubheading more general so don't need this
-\newcommand{\resumeSubheadingMultiple}[8]{
+\newcommand{\resumeSubheadingThree}[8]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
       \textit{\small#5} & \textit{\small #6} \\
       \textit{\small#7} & \textit{\small #8} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingTwo}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -128,7 +133,7 @@
 
 \section{Experience}
   \resumeSubHeadingListStart
-    \resumeSubheadingMultiple
+    \resumeSubheadingThree
       {Guru Technologies Inc.}{Remote/Philadelphia, PA}
       {Senior Machine Learning Engineer}{February 2022-Present}
       {Data Scientist III}{November 2020-January 2022}
@@ -139,8 +144,23 @@
       \resumeItemListEnd
       
     \resumeSubheading
-      {Role 2}{November 2021 – Present}
-      {Company 2}{Melbourne, VIC}
+      {ISM Connect LLC}{Doylestown, PA}
+      {Data Scientist}{March 2018-June 2019}
+      \resumeItemListStart
+        \resumeItem{TODO}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Red Spark LP}{Philadelphia, PA}
+      {Data Scientist}{August 2017-March 2018}
+      \resumeItemListStart
+        \resumeItem{TODO}
+      \resumeItemListEnd
+
+    \resumeSubheadingTwo
+      {84.51° LLC}{Cincinnati, OH}
+      {Senior Data Scientist}{June 2017-July 2017}
+      {Associate Analyst}{June 2015-June 2017}
       \resumeItemListStart
         \resumeItem{TODO}
       \resumeItemListEnd
