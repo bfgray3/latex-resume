@@ -72,6 +72,7 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+% FIXME: make resumeSubheading more general so don't need this
 \newcommand{\resumeSubheadingTwo}[6]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -96,13 +97,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
@@ -124,11 +118,13 @@
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, C++, SQL, R (not recent; one CRAN published package cattonum), Bash} \\
-     \textbf{Frameworks}{: X, X, X} \\
+     \textbf{Languages}{: Python, C++, SQL, R (not recent), Bash} \\
+     \textbf{Frameworks/Packages}{: Spark, NumPy, pandas, FastAPI, scikit-learn, dbt (limited)} \\
      \textbf{Tools}{: Git, Docker, *nix command line} \\
-     \textbf{Cloud}{: AWS (Certified Solutions Architect – Associate exp. December 2023, Certified Machine Learning – Specialty exp. May 2024)}
+     \textbf{Cloud}{: AWS (Certifications: Solutions Architect Associate exp. December 2023, Machine Learning Specialty exp. May 2024)} \\
     }}
+     \textbf{Data Science}{: machine/statistical learning, deep learning, natural language processing, A/B testing} \\
+     \textbf{Natural languages}{: English (native), Spanish (professional competency)}
  \end{itemize}
 
 \section{Experience}
@@ -139,8 +135,10 @@
       {Data Scientist III}{November 2020-January 2022}
       {Data Scientist II}{September 2019-October 2020}
       \resumeItemListStart
-        \resumeItem{TODO}
-        \resumeItem{TODO}
+        \resumeItem{Main contributer on a port of the AI Suggest Text training Spark application from Scala to Python (Expert edition feature, type hints, tests), 8x a day}
+        \resumeItem{prep for learning to boost}
+        \resumeItem{interleaving}
+        \resumeItem{embeddings}
       \resumeItemListEnd
       
     \resumeSubheading
