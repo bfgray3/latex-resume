@@ -1,4 +1,4 @@
-%-------------------------
+
 % Resume in Latex
 % Author : Sidratul Muntaha Ahmed
 % License : MIT
@@ -109,7 +109,7 @@
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge \scshape Bernard Gray} \\ \vspace{1pt}
+    \textbf{\Huge \scshape Bernard (Bernie) Gray} \\ \vspace{1pt}
     \href{mailto:bfgray3@gmail.com}{bfgray3@gmail.com} $|$
     \url{https://linkedin.com/in/bfgray3} $|$
     \url{https://github.com/bfgray3}
@@ -118,9 +118,9 @@
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, C++, SQL, R (not recent), Bash (limited)} \\
-     \textbf{Frameworks/Packages}{: Spark, NumPy, pandas, FastAPI, scikit-learn, dbt (limited), PyTorch (limited)} \\
-     \textbf{Tools}{: Git, Docker, *nix command line} \\
+     \textbf{Languages}{: Python, C++, SQL, R (not recent, one open source package cattonum on CRAN), Bash (limited)} \\
+     \textbf{Packages}{: PySpark, NumPy, pandas, FastAPI, scikit-learn, pytest, mypy, dbt, exposure to other ML packages} \\
+     \textbf{Tools}{: Spark, Git, Docker, *nix command line} \\
      \textbf{Cloud}{: AWS (Active certifications: Solutions Architect Associate, Machine Learning Specialty)} \\
     }}
      \textbf{Data Science}{: machine/statistical learning, deep learning, natural language processing, statistical testing} \\
@@ -130,31 +130,35 @@
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheadingThree
-      {Guru Technologies Inc.}{Remote/Philadelphia, PA}
+      {Guru Technologies Inc.}{Philadelphia, PA/Remote}
       {Senior Machine Learning Engineer}{February 2022-Present}
       {Data Scientist III}{November 2020-January 2022}
       {Data Scientist II}{September 2019-October 2020}
       \resumeItemListStart
-        \resumeItem{Main contributer on a port of the AI Suggest Text training Spark application from Scala to Python (Expert edition feature, type hints, tests), 8x a day}
-        \resumeItem{prep for learning to boost}
-        \resumeItem{interleaving}
-        \resumeItem{embeddings}
-        \resumeItem{general maintenance}
-        \resumeItem{sql queries/mode}
+        \resumeItem{Main contributer on a Scala to Python rewrite of the AI Suggest Text (Expert and Enterprise edition feature) training Spark app that at the time ran eight times daily, raising test coverage from 0\% to 99\%}
+        \resumeItem{Support data scientists developing the Learning to Boost framework (presented at Haystack Conference 2021) for choosing Elasticsearch boosts by working with an engineer on PySpark-based parsing of Elasticsearch explanations}
+        \resumeItem{Collaborate with a data scientist to prepare the statistical foundations for pre- and post-experiment analysis of interleaving experiments comparing two different search algorithms}
+        \resumeItem{Experiment with transformer-based approaches as part of an effort to bring dense embeddings to Guru's search; the entire effort significantly improved search MAP}
+        \resumeItem{Maintain and improve production data science features and search, mainly in Python with some Scala, in an AWS environment}
+        \resumeItem{Develop dbt models and SQL queries for tracking production environment ranker performance}
+        \resumeItem{Present work to audiences of differing technical levels}
+        \resumeItem{Review code written by data scientists, machine learning engineers, and backend engineers}
       \resumeItemListEnd
       
     \resumeSubheading
       {ISM Connect LLC}{Doylestown, PA}
       {Data Scientist}{March 2018-June 2019}
       \resumeItemListStart
-        \resumeItem{TODO}
+        \resumeItem{Wrote the vast majority of a pipeline taking JSON from AWS S3 and loading the data into AWS Aurora}
+        \resumeItem{Created and maintained a suite of foundational internal Python and R packages, including source code, documentation, tests, Docker-based continuous integration in TeamCity, and releases}
       \resumeItemListEnd
 
     \resumeSubheading
       {Red Spark LP}{Philadelphia, PA}
       {Data Scientist}{August 2017-March 2018}
       \resumeItemListStart
-        \resumeItem{TODO}
+        \resumeItem{Spearheaded an initiative to more rigorously measure A/B test results, using a false discovery rate control to manage multiple classical hypothesis tests, and also constructing bootstrap confidence intervals}
+        \resumeItem{Co-authored the internal Python data science package, including source code, documentation, and tests}
       \resumeItemListEnd
 
     \resumeSubheadingTwo
