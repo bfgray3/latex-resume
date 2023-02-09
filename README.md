@@ -1,3 +1,1 @@
-r1.tex: https://es.overleaf.com/latex/templates/cs-slash-it-slash-swe-resume-template/ncxgzcgknkmf
-r2.tex: https://es.overleaf.com/latex/templates/off-campus-template/ygwmktvmvhjm
-r3.tex: http://links.tedpavlic.com/tex/tpavlic_cv_faculty.tex
+LaTeX version of my resume, modified from [this template](https://es.overleaf.com/latex/templates/cs-slash-it-slash-swe-resume-template/ncxgzcgknkmf).
