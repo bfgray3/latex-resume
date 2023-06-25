@@ -1,12 +1,17 @@
-## Overview
+## overview
 
-LaTeX version of my resume, modified from [this template](https://es.overleaf.com/latex/templates/cs-slash-it-slash-swe-resume-template/ncxgzcgknkmf).
+latex version of my resume, modified from [this template](https://es.overleaf.com/latex/templates/cs-slash-it-slash-swe-resume-template/ncxgzcgknkmf).
 
-## Usage
+## usage
 
-Build the image and then generate the pdf with the following.
+build an image that will be used to generate a pdf version of the resume:
 
 ```bash
-docker build . -t resume-image
-docker run --rm -v $PWD:/resume resume-image:latest pdflatex b_gray.tex
+make build
+```
+
+generate the pdf:
+
+```bash
+make pdf
 ```
