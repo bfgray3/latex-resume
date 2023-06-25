@@ -13,5 +13,5 @@ make build
 generate the pdf:
 
 ```bash
-make pdf
+make pdf  # or `make`
 ```
