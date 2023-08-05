@@ -15,3 +15,9 @@ generate the pdf:
 ```bash
 make pdf  # or `make`
 ```
+
+## cattonum download count source
+
+```bash
+curl https://cranlogs.r-pkg.org/downloads/total/2018-01-01:2023-08-01/cattonum
+```
