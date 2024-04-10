@@ -1,8 +1,2 @@
-**/*.aux
-**/*.log
-**/*.md
-**/*.out
-**/*.pdf
-.*ignore
-.git
-Dockerfile
+*
+!*.tex
