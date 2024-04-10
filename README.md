@@ -6,14 +6,14 @@ latex version of my resume, modified from [this template](https://es.overleaf.co
 
 build an image that will be used to generate a pdf version of the resume:
 
-```bash
-make build
+```console
+$ make build
 ```
 
 generate the pdf:
 
-```bash
-make pdf  # or `make`
+```console
+$ make
 ```
 
 ## cattonum download count source

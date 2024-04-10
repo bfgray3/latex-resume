@@ -1,7 +1,9 @@
-.PHONY: build pdf
+.PHONY: build
 
-pdf:
+all: b_gray.pdf
+
+b_gray.pdf: b_gray.tex
 	@docker run --rm -v $(shell pwd):/resume resume-image:latest
 
 build:
-	@docker build . -t resume-image
+	@docker build --pull . -t resume-image

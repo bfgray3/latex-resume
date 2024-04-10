@@ -9,4 +9,4 @@ RUN : \
 
 WORKDIR /resume
 
-CMD pdflatex b_gray.tex
+CMD ["pdflatex", "b_gray.tex"]
